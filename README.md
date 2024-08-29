@@ -1,5 +1,3 @@
-<img src="https://bafybeib2q3dv22gkf5jc5vamy653jsvqkvek4ulmqu6ynrmjzlv64zbpde.ipfs.w3s.link/crub.svg" alt="crub" height="180" style="margin:0;"/>
-
 # crab
 
 **crab** is a Ruby-based bot that leverages the [SIDESHIFT API](https://docs.sideshift.ai/endpoints/v2/coins) to access and analyze financial data for cryptocurrency trading.
