@@ -1,0 +1,12 @@
+default: &default
+  access_key: ENV['SIDESHIFT_ACCESS_KEY']
+  secret_key: ENV['SIDESHIFT_SECRET_KEY']
+  source_currency: "USDT"
+  destination_currency: "BTC"
+  buy_amount: 100
+
+development:
+  <<: *default
+
+production:
+  <<: *default
