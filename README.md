@@ -21,13 +21,13 @@ It includes functionalities such as fetching market data, managing user accounts
 3. Customize the `crub.rb` file to align with your specific trading strategy. For example, to purchase 100 USDT worth of Bitcoin every Sunday at 0:00:
 
    ```ruby
-   0 * * * * cd /crab/lib && ruby crab.rb
+   0 * * * * cd /crab && ruby runner.rb
    ```
 
 4. Set up a cron job to execute the script at your desired intervals. For instance, to run the script every 5 minutes:
 
    ```
-   */5 * * * * cd /crab/lib && ruby crab.rb
+   */5 * * * * cd /crab && ruby runner.rb
    ```
 
 5. Start the cron service:
